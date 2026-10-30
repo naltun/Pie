@@ -76,7 +76,7 @@ inline const char* stringify(const Code code) {
         case HALT        : return "HALT"        ;
     }
 
-    // return "<UNKOWN>";
+    return "";
 }
 
 
