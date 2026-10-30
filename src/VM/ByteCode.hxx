@@ -74,9 +74,8 @@ inline const char* stringify(const Code code) {
         case JUMP_IF     : return "JUMP_IF"     ;
         case JUMP        : return "JUMP"        ;
         case HALT        : return "HALT"        ;
+        default          : return ""            ;
     }
-
-    return "";
 }
 
 
